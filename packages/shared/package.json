@@ -1,12 +1,11 @@
 {
   "name": "@play-lerna-lite-pnpm/shared",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "exports": {
     ".": "./index.js",
     "./package.json": "./package.json"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }

@@ -1,5 +1,6 @@
 {
   "name": "play-lerna-lite-pnpm",
+  "private": true,
   "version": "1.0.0",
   "scripts": {},
   "packageManager": "pnpm@10.23.0",
