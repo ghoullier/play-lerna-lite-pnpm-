@@ -34,8 +34,8 @@ catalogs:
       specifier: 9.0.0
       version: 9.0.0
     react:
-      specifier: 19.0.1
-      version: 19.0.1
+      specifier: 19.0.2
+      version: 19.0.2
 
 patchedDependencies:
   '@lerna-lite/core':
@@ -81,13 +81,13 @@ importers:
         version: link:../shared
       react:
         specifier: 'catalog:'
-        version: 19.0.1
+        version: 19.0.2
 
   packages/shared:
     dependencies:
       react:
         specifier: 'catalog:'
-        version: 19.0.1
+        version: 19.0.2
 
 packages:
 
@@ -1707,8 +1707,8 @@ packages:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
     engines: {node: '>=8'}
 
-  react@19.0.1:
-    resolution: {integrity: sha512-nVRaZCuEyvu69sWrkdwjP6QY57C+lY+uMNNMyWUFJb9Z/JlaBOQus7mSMfGYsblv7R691u6SSJA/dX9IRnyyLQ==}
+  react@19.0.2:
+    resolution: {integrity: sha512-xgvB+eJxFIW0HcFmURjOOLhGmbhYVHATKeS+aQd7HeRJI3nYuutqG4eJfBi+I2rFob7E72M3tXJGjv+5XUHLEQ==}
     engines: {node: '>=0.10.0'}
 
   read-cmd-shim@6.0.0:
@@ -4054,7 +4054,7 @@ snapshots:
 
   quick-lru@4.0.1: {}
 
-  react@19.0.1: {}
+  react@19.0.2: {}
 
   read-cmd-shim@6.0.0: {}
 
