@@ -8,6 +8,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@play-lerna-lite-pnpm/shared": "workspace:*"
+    "@play-lerna-lite-pnpm/shared": "workspace:*",
+    "react": "catalog:"
   }
 }
