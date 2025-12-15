@@ -8,7 +8,7 @@
     "@commitlint/cli": "catalog:",
     "@commitlint/config-conventional": "catalog:",
     "@commitlint/prompt": "catalog:",
-    "@lerna-lite/cli": "^4.4.1",
+    "@lerna-lite/cli": "catalog:",
     "@lerna-lite/publish": "catalog:",
     "@lerna-lite/run": "catalog:",
     "@lerna-lite/version": "catalog:",
