@@ -10,5 +10,8 @@
   "dependencies": {
     "@play-lerna-lite-pnpm/shared": "workspace:*",
     "react": "catalog:"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

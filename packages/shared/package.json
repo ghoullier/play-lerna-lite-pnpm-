@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "react": "catalog:"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
