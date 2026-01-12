@@ -26,7 +26,7 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
       - uses: pnpm/action-setup@v4
       - run: pnpm install --frozen-lockfile
-      - run: lerna version
-      - run: lerna publish
+      - run: npm exec @lerna-lite/cli version
+      - run: npm exec @lerna-lite/cli publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
