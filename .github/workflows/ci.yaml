@@ -30,3 +30,4 @@ jobs:
       - run: npm exec @lerna-lite/cli publish from-package --force-publish --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
