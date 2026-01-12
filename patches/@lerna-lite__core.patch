@@ -6,7 +6,7 @@ index 60912a0ff7bd4343a46694e4d23beb4da7923f9d..49e9f36beace3fb16a2fa8aebfbbc341
                          let replaced = false;
                          if (catalogs) {
                              const catalogName = updatedPkgDep[depName].replace(/^catalog:/, '');
-+                            console.log('@lerna-lite/core', 'dist/package.js', 'resolveDependencyCatalogProtocol', { depName, depRange, catalog, catalogs, 'updatedPkgDep[depName]': updatedPkgDep[depName], catalogName });
++                            console.log('@lerna-lite/core', 'dist/package.js', 'resolveDependencyCatalogProtocol', { depName, depRange, catalog, catalogs, 'updatedPkgDep[depName]': updatedPkgDep[depName], catalogName, 'catalogName || "default"': catalogName || "default" });
                              if (catalogs[catalogName]?.[depName]) {
                                  updatedPkgDep[depName] = catalogs[catalogName][depName];
                                  replaced = true;
