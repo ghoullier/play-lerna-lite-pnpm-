@@ -13,7 +13,7 @@ permissions:
   packages: write # to publish packages (npm publish)
 
 jobs:
-  ci-canary-release:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write # to fetch code (actions/checkout)
@@ -26,7 +26,12 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
       - uses: pnpm/action-setup@v4
       - run: pnpm install --frozen-lockfile
-      - run: npm exec @lerna-lite/cli version
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          npm exec @lerna-lite/cli version
       - run: npm exec @lerna-lite/cli publish from-package --force-publish --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
