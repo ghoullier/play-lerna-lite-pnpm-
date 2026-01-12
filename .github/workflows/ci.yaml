@@ -16,7 +16,7 @@ jobs:
   ci-canary-release:
     runs-on: ubuntu-latest
     permissions:
-      contents: read # to fetch code (actions/checkout)
+      contents: write # to fetch code (actions/checkout)
       packages: write # to publish packages (npm publish)
       id-token: write # The OIDC ID token is used for authentication with JSR.
     steps:

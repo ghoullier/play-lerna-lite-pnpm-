@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ContentSquare/lerna-lite-pnpm-catalog-issue.git",
+    "url": "https://github.com/ContentSquare/lerna-lite-pnpm-catalog-issue",
     "directory": "packages/shared"
   },
   "dependencies": {
