@@ -1,17 +1,18 @@
 packages:
   - packages/*
 
-catalog:
-  '@commitlint/cli': 19.6.0
-  '@commitlint/config-conventional': 19.6.0
-  '@commitlint/prompt': 19.6.0
-  '@lerna-lite/cli': 4.10.5
-  '@lerna-lite/publish': 4.10.5
-  '@lerna-lite/run': 4.10.5
-  '@lerna-lite/version': 4.10.5
-  conventional-changelog-cli: 2.2.2
-  conventional-changelog-conventionalcommits: 9.0.0
-  react: 19.2.0
+catalogs:
+  default:
+    '@commitlint/cli': 19.6.0
+    '@commitlint/config-conventional': 19.6.0
+    '@commitlint/prompt': 19.6.0
+    '@lerna-lite/cli': 4.10.5
+    '@lerna-lite/publish': 4.10.5
+    '@lerna-lite/run': 4.10.5
+    '@lerna-lite/version': 4.10.5
+    conventional-changelog-cli: 2.2.2
+    conventional-changelog-conventionalcommits: 9.0.0
+    react: 19.2.2
 
 patchedDependencies:
   '@lerna-lite/core': patches/@lerna-lite__core.patch
