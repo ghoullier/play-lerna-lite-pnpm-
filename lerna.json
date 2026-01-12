@@ -12,7 +12,6 @@
     }
   },
   "npmClient": "pnpm",
-  "useWorkspaces": true,
   "version": "independent",
   "changelogPreset": {
     "name": "conventional-changelog-conventionalcommits"
