@@ -1,0 +1,30 @@
+on:
+  push:
+    branches: [main]
+
+name: Release
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read # to fetch code (actions/checkout)
+  packages: write # to publish packages (npm publish)
+
+jobs:
+  ci-canary-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # to fetch code (actions/checkout)
+      packages: write # to publish packages (npm publish)
+      id-token: write # The OIDC ID token is used for authentication with JSR.
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          registry-url: "https://npm.pkg.github.com"
+      - run: lerna version
+      - run: lerna publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
