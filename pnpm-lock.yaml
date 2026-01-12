@@ -39,7 +39,7 @@ catalogs:
 
 patchedDependencies:
   '@lerna-lite/core':
-    hash: dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80
+    hash: f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8
     path: patches/@lerna-lite__core.patch
 
 importers:
@@ -2392,7 +2392,7 @@ snapshots:
 
   '@lerna-lite/cli@4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/run@4.10.5)(@lerna-lite/version@4.10.5)(@types/node@25.0.1)':
     dependencies:
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       '@lerna-lite/init': 4.10.5(@types/node@25.0.1)
       '@lerna-lite/npmlog': 4.10.4
       dedent: 1.7.1
@@ -2409,7 +2409,7 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  '@lerna-lite/core@4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)':
+  '@lerna-lite/core@4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)':
     dependencies:
       '@inquirer/expand': 4.0.23(@types/node@25.0.1)
       '@inquirer/input': 4.3.1(@types/node@25.0.1)
@@ -2443,7 +2443,7 @@ snapshots:
 
   '@lerna-lite/init@4.10.5(@types/node@25.0.1)':
     dependencies:
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       fs-extra: 11.3.3
       p-map: 7.0.4
       write-json-file: 7.0.0
@@ -2464,7 +2464,7 @@ snapshots:
 
   '@lerna-lite/profiler@4.10.5(@types/node@25.0.1)':
     dependencies:
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       '@lerna-lite/npmlog': 4.10.4
       fs-extra: 11.3.3
       upath: 2.0.1
@@ -2476,7 +2476,7 @@ snapshots:
   '@lerna-lite/publish@4.10.5(@lerna-lite/run@4.10.5)(@types/node@25.0.1)(conventional-commits-filter@5.0.0)':
     dependencies:
       '@lerna-lite/cli': 4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/run@4.10.5)(@lerna-lite/version@4.10.5)(@types/node@25.0.1)
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       '@lerna-lite/npmlog': 4.10.4
       '@lerna-lite/version': 4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/run@4.10.5)(@types/node@25.0.1)(conventional-commits-filter@5.0.0)
       '@npmcli/arborist': 9.1.9
@@ -2514,7 +2514,7 @@ snapshots:
   '@lerna-lite/run@4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/version@4.10.5)(@types/node@25.0.1)':
     dependencies:
       '@lerna-lite/cli': 4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/run@4.10.5)(@lerna-lite/version@4.10.5)(@types/node@25.0.1)
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       '@lerna-lite/npmlog': 4.10.4
       '@lerna-lite/profiler': 4.10.5(@types/node@25.0.1)
       fs-extra: 11.3.3
@@ -2534,7 +2534,7 @@ snapshots:
     dependencies:
       '@conventional-changelog/git-client': 2.5.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)
       '@lerna-lite/cli': 4.10.5(@lerna-lite/publish@4.10.5)(@lerna-lite/run@4.10.5)(@lerna-lite/version@4.10.5)(@types/node@25.0.1)
-      '@lerna-lite/core': 4.10.5(patch_hash=dcae11f0cca75583c093c6af046763a749ecf4ffdcad4d38732580a3f54c3f80)(@types/node@25.0.1)
+      '@lerna-lite/core': 4.10.5(patch_hash=f20e7d3793707d73451c90adfcfa07f4fdbe16be8b289b6c59f8eadff59626b8)(@types/node@25.0.1)
       '@lerna-lite/npmlog': 4.10.4
       '@octokit/plugin-enterprise-rest': 6.0.1
       '@octokit/rest': 22.0.1
