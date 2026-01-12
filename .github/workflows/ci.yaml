@@ -36,3 +36,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npm view @ghoullier/shared dependencies --json
+      - run: npm view @ghoullier/app dependencies --json
+
