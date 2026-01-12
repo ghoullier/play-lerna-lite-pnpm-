@@ -1,6 +1,5 @@
 {
   "name": "@play-lerna-lite-pnpm/shared",
-  "private": true,
   "version": "1.0.4",
   "description": "",
   "exports": {
