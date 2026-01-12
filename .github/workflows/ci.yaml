@@ -31,8 +31,8 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          npm exec @lerna-lite/cli version
-      - run: npm exec @lerna-lite/cli publish from-package --force-publish --yes
+          $(pnpm bin)/lerna version
+      - run: $(pnpm bin)/lerna publish from-package --force-publish --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
