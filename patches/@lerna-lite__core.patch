@@ -1,13 +1,12 @@
 diff --git a/dist/package.js b/dist/package.js
-index 60912a0ff7bd4343a46694e4d23beb4da7923f9d..db5420934c109c9577be5e8916475b08e2bdb318 100644
+index 60912a0ff7bd4343a46694e4d23beb4da7923f9d..49e9f36beace3fb16a2fa8aebfbbc341840c2918 100644
 --- a/dist/package.js
 +++ b/dist/package.js
-@@ -178,7 +178,7 @@ export class Package {
-                     if (depRange.startsWith('catalog:')) {
+@@ -179,6 +179,7 @@ export class Package {
                          let replaced = false;
                          if (catalogs) {
--                            const catalogName = updatedPkgDep[depName].replace(/^catalog:/, '');
-+                            const catalogName = updatedPkgDep[depName].replace(/^catalog:/, '') || 'default';
+                             const catalogName = updatedPkgDep[depName].replace(/^catalog:/, '');
++                            console.log('@lerna-lite/core', 'dist/package.js', 'resolveDependencyCatalogProtocol', { depName, depRange, catalog, catalogs, 'updatedPkgDep[depName]': updatedPkgDep[depName], catalogName });
                              if (catalogs[catalogName]?.[depName]) {
                                  updatedPkgDep[depName] = catalogs[catalogName][depName];
                                  replaced = true;
