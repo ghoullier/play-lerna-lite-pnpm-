@@ -7,6 +7,11 @@
     ".": "./index.js",
     "./package.json": "./package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ContentSquare/lerna-lite-pnpm-catalog-issue.git",
+    "directory": "packages/app"
+  },
   "dependencies": {
     "@play-lerna-lite-pnpm/shared": "workspace:*",
     "react": "catalog:"
