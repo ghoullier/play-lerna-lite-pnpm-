@@ -34,8 +34,8 @@ catalogs:
       specifier: 9.0.0
       version: 9.0.0
     react:
-      specifier: 19.1.0
-      version: 19.1.0
+      specifier: 19.1.1
+      version: 19.1.1
 
 importers:
 
@@ -76,13 +76,13 @@ importers:
         version: link:../shared
       react:
         specifier: 'catalog:'
-        version: 19.1.0
+        version: 19.1.1
 
   packages/shared:
     dependencies:
       react:
         specifier: 'catalog:'
-        version: 19.1.0
+        version: 19.1.1
 
 packages:
 
@@ -1696,8 +1696,8 @@ packages:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
     engines: {node: '>=8'}
 
-  react@19.1.0:
-    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
+  react@19.1.1:
+    resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
     engines: {node: '>=0.10.0'}
 
   read-cmd-shim@6.0.0:
@@ -4035,7 +4035,7 @@ snapshots:
 
   quick-lru@4.0.1: {}
 
-  react@19.1.0: {}
+  react@19.1.1: {}
 
   read-cmd-shim@6.0.0: {}
 
