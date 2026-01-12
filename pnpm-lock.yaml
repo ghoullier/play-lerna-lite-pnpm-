@@ -71,7 +71,7 @@ importers:
 
   packages/app:
     dependencies:
-      '@play-lerna-lite-pnpm/shared':
+      '@ghoullier/shared':
         specifier: workspace:*
         version: link:../shared
       react:
